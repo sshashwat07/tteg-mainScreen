@@ -11,7 +11,7 @@ function KYC() {
     width: 1015,
     height: 350,
     paddingTop: '1px',
-    backgroundColor: 'lightgray',
+    backgroundColor: 'white',
     borderWidth: '5px',
     borderColor: 'black',
   }}

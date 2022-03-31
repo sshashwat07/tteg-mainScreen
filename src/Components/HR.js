@@ -11,14 +11,14 @@ function HR() {
     width: 1015,
     height: 350,
     paddingTop: '1px',
-    backgroundColor: 'lightgray',
+    backgroundColor: 'white',
     borderWidth: '5px',
     borderColor: 'black',
   }}
     style={{marginTop: '-160px'}}
   >
 
-    <text>This is KYC</text>
+    <text>This is HR</text>
 
       </Box>
     </Grid>

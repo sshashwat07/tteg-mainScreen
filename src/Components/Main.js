@@ -11,6 +11,8 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import SettingsIcon from '@mui/icons-material/Settings';
+import MenuIcon from '@mui/icons-material/Menu';
+import '../Styles/Main.css'
 
 
 function Main() {
@@ -29,7 +31,7 @@ function Main() {
   
 
   return (
-    <div >
+    <div id='ma'>
         
     <div className='header'>
     
@@ -49,7 +51,7 @@ function Main() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{color: 'black'}}>
             
 
-            <FormControl style={{minWidth: '200px'}}>
+            <FormControl style={{minWidth: '200px'}} className='menit'>
               {/* <InputLabel>{screen}</InputLabel> */}
             
             <Select onChange={handleChange} value={screen}>
@@ -63,11 +65,11 @@ function Main() {
             
           </Typography>
 
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{color: 'black'}}>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{color: 'black'}} className='menit'>
             {role === "Planner" ? <text>Role - Planner</text> : <text>Role - Other</text>}
           </Typography>
 
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{color: 'black'}}>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{color: 'black'}} className='menit'>
             Hi {name} !
           </Typography>
 
@@ -80,7 +82,8 @@ function Main() {
             sx={{ mr: 2 }}
           >
 
-            <SettingsIcon /> 
+            <SettingsIcon className='menit'/> 
+            <MenuIcon id='menubtn'/>
           
           </IconButton>
           
