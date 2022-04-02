@@ -15,6 +15,9 @@
   .menit {
     display: none;
   }
+  #specific {
+    display: none;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -22,12 +25,24 @@
   .menit {
     display: none;
   }
+  #specific {
+    display: none;
+  }
+  #test1 {
+    display: block;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .menit {
     display: none;
+  }
+  #specific {
+    display: none;
+  }
+  #container {
+    margin-right: 30%;
   }
 }
 

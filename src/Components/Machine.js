@@ -5,6 +5,7 @@ import Container from '@mui/material/Container';
 import { borderColor } from '@mui/icons-material';
 import IconButton from '@mui/material/IconButton';
 import AddCircleOutlineSharpIcon from '@mui/icons-material/AddCircleOutlineSharp';
+import '../Styles/Main.css'
 
 function Machine() {
   return (
@@ -21,6 +22,8 @@ function Machine() {
         borderColor: 'black',
       }}
         style={{marginTop: '-160px'}}
+
+        id='container'
       >
 
         <IconButton

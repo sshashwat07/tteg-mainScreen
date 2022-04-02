@@ -37,15 +37,18 @@ function TaskManager() {
 
     <Box sx={{ flexGrow: 1 }} style={{marginTop: "25px"}}>
       <Grid container spacing={2} >
+        <div id="test1">
         <Grid item xs={9} >
         {/* <Box style={{backgroundColor: 'lightgray', marginLeft: '10px'}}>
               <Tab className="tb" label="Asset Management"  />
           </Box> */}
           <Item style={{backgroundColor: 'lightgray', marginLeft: '10px'}}>Asset Management</Item>
         </Grid>
+        
         <Grid item xs={3}>
           <Item style={{backgroundColor: 'lightgray',  marginRight: '10px'}}>Upcoming</Item>
         </Grid>
+        </div>
         <Grid item xs={3} onClick = {()=>setValue('1')} style={{marginLeft: "10px"}} >
           <Box className = {(value === '1')? (classes.active):(classes.deActive)}>
               <Tab className="tb" label="Machine" value="1"  />

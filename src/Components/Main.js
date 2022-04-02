@@ -51,7 +51,7 @@ function Main() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{color: 'black'}}>
             
 
-            <FormControl style={{minWidth: '200px'}} className='menit'>
+            <FormControl style={{minWidth: '200px'}} className='menit' id='specific'>
               {/* <InputLabel>{screen}</InputLabel> */}
             
             <Select onChange={handleChange} value={screen}>
@@ -82,7 +82,7 @@ function Main() {
             sx={{ mr: 2 }}
           >
 
-            <SettingsIcon className='menit'/> 
+            <SettingsIcon className='menit'id='specific'/> 
             <MenuIcon id='menubtn'/>
           
           </IconButton>
